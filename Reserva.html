@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Reserva tu Evento - Los Krotos</title>
+    <link href="https://fonts.googleapis.com/css?family=Caladea|Crete+Round|Merriweather|Mitr&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.transitions.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/reservation.css">
+      <link rel="stylesheet" href="css/jquery-ui.css">
+
+   
+    
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand logo" href="index.html"> Los Krotos</a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link ">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="servicios.html" class="nav-link active">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a href="galeria.html" class="nav-link ">Galería</a>
+                </li>
+                <li class="nav-item">
+                    <a href="eventos.html" class="nav-link">Eventos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contacto.html" class="nav-link ">Contacto</a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid">
+    <section id="reservation_hero_section" class="Chambres fix-margin">
+                <div class="container zindex">
+                    <div class="col-lg-12 banner_cnt">
+                        <h2>Reserva de Eventos y Reuniones</h2>
+                        <p>Planea tu próximo encuentro en nuestro entorno natural. Estamos listos para hacer de tu evento una experiencia memorable.</p>
+                        
+                    </div>
+
+                </div>
+        
+    </section>
+    <section id="form-section">
+        <div class="container">
+            <div class="row form-row">
+                <div class="col-lg-8 col-md-8 col-sm-12 col-12 p-2">
+                    <div class="form-body">
+                        <div class="heading-text">
+                            <h5 class="form-heading">FORMULARIO DE SOLICITUD</h5>
+                            <h2 class="form-caption">Detalles del Evento o Reunión</h2>
+                            <p class="form-title">Por favor, complete los siguientes campos para solicitar su reserva. Nos pondremos en contacto con usted a la brevedad para confirmar y coordinar todos los detalles. </p>
+                        </div>
+                        
+
+                        <form action="#" class="booking-form">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label for="event_type">Tipo de Evento/Reunión:</label>
+                                    <select id="event_type" class="form-control">
+                                        <option value="">Seleccione el tipo de evento</option>
+                                        <option value="Familiar">Reunión Familiar</option>
+                                        <option value="Corporativo">Evento Corporativo</option>
+                                        <option value="Social">Evento Social (Cumpleaños, Bautizos, etc.)</option>
+                                        <option value="Educativo">Visita Educativa/Grupo</option>
+                                        <option value="Otro">Otro (especificar en requisitos especiales)</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="event_date">Fecha del Evento:</label>
+                                    <input type="text" id="event_date" class="form-control" placeholder="Seleccione la fecha">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="start_time">Hora de Inicio Aproximada:</label>
+                                    <input type="time" id="start_time" class="form-control" placeholder="Hora de inicio">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="end_time">Hora de Fin Aproximada:</label>
+                                    <input type="time" id="end_time" class="form-control" placeholder="Hora de fin">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="attendees">Número Estimado de Asistentes:</label>
+                                    <input type="number" id="attendees" class="form-control" min="1" placeholder="Ej: 50 personas">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="contact_name">Nombre Completo de Contacto:</label>
+                                    <input type="text" name="contact_name" class="form-control" placeholder="Su Nombre Completo" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="contact_email">Correo Electrónico:</label>
+                                    <input type="email" name="contact_email" class="form-control" placeholder="Su Correo Electrónico" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="contact_phone">Número de Teléfono:</label>
+                                    <input type="tel" name="contact_phone" class="form-control" placeholder="Su Número de Teléfono" required>
+                                </div>
+                                <div class="col-md-12">
+                                    <label for="special_requirements">Requisitos Especiales / Comentarios:</label>
+                                    <textarea placeholder="Detalle aquí cualquier necesidad específica (catering, equipos, espacios preferidos, etc.)" id="special_requirements" rows="8" cols="6" class="form-control"></textarea>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="submit" value="ENVIAR SOLICITUD" class="btn">
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12 p-2">
+                    <div class="book-sidebar">
+                        <h5>Información de Contacto</h5>
+                        <h1>¿Necesitas ayuda con tu reserva?</h1>
+                        <hr>
+                        <div class="detail-list">
+                            <p>Si tienes alguna pregunta o necesitas ayuda con tu solicitud de reserva, nuestro equipo está disponible para asistirte. </p>
+                            <ul>
+                                <li>
+                                    <label>HORARIO DE ATENCIÓN:</label>
+                                    <p>Lunes a Domingo: 9:00 AM - 6:00 PM</p>
+                                </li>
+                                <li>
+                                    <label>CORREO ELECTRÓNICO:</label>
+                                    <p><a href="mailto:info@loskrotos.com">info@loskrotos.com</a></p>
+                                </li>
+                                <li>
+                                    <label>TELÉFONO:</label>
+                                    <p>[Número de Teléfono Aquí]</p>
+                                </li>
+                                <li class="total">
+                                    <label>UBICACIÓN:</label>
+                                    <p>Km 5.5 Carretera Lamas-Tarapoto, San Martín, Perú </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="book-contact">
+                            <h6>También puedes visitarnos en nuestras redes sociales para más información.</h6>
+                            <div class="footer-s-icons text-center">
+                                <ul>
+                                    <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fa fa-tiktok"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer-site">
+        <div class="footer-top">
+            <div class="footer-top-body">
+                <div class="container">
+                    <div class="row">
+                    <div class="col-lg-6 mt-1 text-center">
+                    <h5>REDES SOCIALES</h5>
+                    <h6>SÍGUENOS EN NUESTRAS REDES</h6>
+                    <div class="footer-s-icons text-center">
+                        <ul>
+                            <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                             <li><a href="#" target="_blank"><i class="fa fa-tiktok"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                    <div class="col-lg-6 mt-1 text-center">
+                        <h5>BOLETÍN DE NOTICIAS</h5>
+                    <h6>NOS ENCANTA COMPARTIR NUEVAS OFERTAS Y PROMOCIONES EXCLUSIVAS</h6>
+                    <div class="footer-newsletter">
+                        <form>
+                            <input type="text" placeholder="INGRESA TU CORREO ELECTRÓNICO" required="">
+                            <button type="submit"><i class="fa fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="wrapper">
+            <div class="footer-LOGO">
+                    <h2>Los Krotos</h2>
+            </div>
+            <div class="footer-copyright">
+                <p>COPYRIGHT © Recreo Turístico Los Krotos</p>
+            </div>
+            <div class="footer-contact">
+                <ul>
+                    <li><i class="fa fa-map-marker"></i> Km 5.5 Carretera Lamas-Tarapoto, San Martín, Perú </li>
+                    <li><i class="fa fa-phone"></i> 967125706</li>
+                    <li><a href="mailto:info@loskrotos.com"><i class="fa fa-paper-plane"></i> info@loskrotos.com</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="#">MAPA DEL SITIO</a></li>
+                    <li><a href="#">POLÍTICA DE PRIVACIDAD</a></li>
+                    <li><a href="#">TÉRMINOS DE USO</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </section>
+    </div>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="js/jquery-1.12.4.min.js"></script>
+ <script src="js/jquery-ui.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+
+<script src="js/scrollIt.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/pags/reservationCtrl.js"></script>
+<script src="js/parallax.min.js"></script>
+<script src="js/costom.js"></script>
+<script src="https://kit.fontawesome.com/f0ce275083.js"></script>
+<script>
+    
+
+</script>
+
+</body>
+</html>

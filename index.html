@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="Abdul Malik, BWDGFreelancer">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Recreo Turístico Los Krotos</title>
+    <link href="https://fonts.googleapis.com/css?family=Caladea|Crete+Round|Merriweather|Mitr&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.transitions.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+      <link rel="stylesheet" href="css/jquery-ui.css">
+
+   
+    
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand logo" href="index.html"> Los Krotos</a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="servicios.html" class="nav-link">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a href="galeria.html" class="nav-link">Galería</a>
+                </li>
+                <li class="nav-item">
+                    <a href="eventos.html" class="nav-link">Eventos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contacto.html" class="nav-link">Contacto</a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid">
+    <section id="hero_section" class="fix-margin">
+                <div class="container zindex">
+                    <div class="col-lg-12 banner_cnt">
+                        <h2>Bienvenido a Los Krotos</h2>
+                        <p>Tu oasis natural en la selva amazónica de San Martín</p> 
+                    </div>
+
+                </div>
+        
+    </section>
+    <section id="room_detils">
+        <style>
+            /* Ajusta el tamaño de las imágenes de las tarjetas de servicios */
+            #room_detils .card img {
+                width: 100%;
+                height: 220px;
+                object-fit: cover;
+                object-position: center;
+                display: block;
+                transition: transform 0.3s cubic-bezier(.25,.8,.25,1);
+            }
+            #room_detils .card img:hover {
+                transform: scale(1.08);
+                z-index: 2;
+            }
+        </style>
+        <div class="container">
+            <div class="price_opt row">
+                <div class="col-lg-4 card">
+                    <img src="img/piscina1.jpg" alt="Piscina Recreativa">
+                    <div class="content">
+                        <h2>Diversión Acuática para Todos</h2>
+                        <div class="title_min"></div>
+                        <p>Disfruta de nuestra amplia piscina recreativa, ideal para el disfrute familiar y refrescarte en el clima amazónico. Seguridad y diversión garantizadas.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 card">
+                    <img src="img/naturaleza1.jpg" alt="Áreas Verdes y Naturaleza">
+                    <div class="content">
+                        <h2>Conexión con la Naturaleza</h2>
+                        <div class="title_min"></div>
+                        <p>Amplias áreas verdes bien cuidadas, rodeadas de exuberante vegetación, árboles frutales y especies forestales. Un verdadero respiro natural.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 card">
+                    <img src="img/Gastronomia.jpg" alt="Gastronomía Regional">
+                    <div class="content">
+                        <h2>Sabores de la Selva</h2>
+                        <div class="title_min"></div>
+                        <p>Nuestro restaurante ofrece una propuesta gastronómica con deliciosos platos regionales y cocina campestre, preparados con insumos frescos de la zona.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Rooms">
+        <div class="container">
+            <div class="row">
+                <div class="header-text">
+                    <h2>Nuestros <span>Servicios Destacados</span></h2>
+                </div>
+            </div>
+            <style>
+                /* Asegura que todas las tarjetas tengan el mismo alto */
+                #Rooms .card {
+                    height: 100%;
+                    min-height: 420px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: flex-start;
+                    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+                    border-radius: 12px;
+                    padding: 18px 12px 24px 12px;
+                    margin-bottom: 24px;
+                    background: #fff;
+                    transition: box-shadow 0.3s;
+                }
+                #Rooms .card:hover {
+                    box-shadow: 0 8px 24px rgba(0,0,0,0.13);
+                }
+                #Rooms .card img {
+                    width: 100%;
+                    height: 180px;
+                    object-fit: cover;
+                    object-position: center;
+                    border-radius: 8px;
+                    transition: transform 0.3s cubic-bezier(.25,.8,.25,1);
+                    margin-bottom: 16px;
+                    display: block;
+                }
+                #Rooms .card img:hover {
+                    transform: scale(1.08) translateY(-8px);
+                    z-index: 2;
+                }
+                #Rooms .card h2 {
+                    font-size: 1.15rem;
+                    font-weight: 700;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                #Rooms .card p {
+                    flex: 1;
+                    text-align: center;
+                    font-size: 1rem;
+                    margin-bottom: 12px;
+                }
+                #Rooms .card a {
+                    color: #1e88e5;
+                    font-weight: 600;
+                    text-decoration: none;
+                    transition: color 0.2s;
+                }
+                #Rooms .card a:hover {
+                    color: #1565c0;
+                    text-decoration: underline;
+                }
+                @media (max-width: 991px) {
+                    #Rooms .card {
+                        min-height: 440px;
+                    }
+                }
+                @media (max-width: 767px) {
+                    #Rooms .card {
+                        min-height: 0;
+                    }
+                    #Rooms .card img {
+                        height: 140px;
+                    }
+                }
+            </style>
+            <div class="row">
+                <div class="col-lg-3 card">
+                    <img src="img/eventos.jpg" alt="Espacios para Eventos">
+                    <h2>ESPACIOS PARA EVENTOS</h2>
+                    <p>Amplios salones y áreas al aire libre para reuniones familiares, eventos sociales y encuentros corporativos en un ambiente natural.</p>
+                    <a href="servicios.html">Más Detalles <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+                <div class="col-lg-3 card">
+                    <img src="img/futbol.jpg" alt="Canchas Deportivas">
+                    <h2>ACTIVIDADES AL AIRE LIBRE</h2>
+                    <p>Disfruta de nuestras canchas de vóley, juegos infantiles y amplios espacios abiertos para la recreación y el deporte.</p>
+                    <a href="servicios.html">Más Detalles <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+                <div class="col-lg-3 card">
+                    <img src="img/bebida.jpg" alt="Bar de Bebidas">
+                    <h2>BAR CON BEBIDAS REFRESCANTES</h2>
+                    <p>Relájate en nuestro bar con una selección de bebidas refrescantes y cócteles para acompañar tu día de diversión.</p>
+                    <a href="servicios.html">Más Detalles <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+                <div class="col-lg-3 card">
+                    <img src="img/zonadescanso.jpg" alt="Zonas de Descanso">
+                    <h2>ZONAS DE DESCANSO</h2>
+                    <p>Encuentra tranquilidad en nuestras áreas verdes y espacios acondicionados para el relax y el contacto directo con la naturaleza.</p>
+                    <a href="servicios.html">Más Detalles <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 left">
+                    <h2>UN POCO SOBRE NOSOTROS</h2>
+                    <div class="title_min"></div>
+                    <p>Tu destino ideal para la relajación y la aventura</p>
+                </div>
+                <div class="col-lg-6">
+                    <p>Recreo Turístico Los Krotos se encuentra estratégicamente ubicado en la región San Martín, a la altura del kilómetro 5.5 de la carretera Lamas-Tarapoto. Este enclave en plena selva amazónica peruana te brinda un entorno natural privilegiado, ideal para el descanso, la recreación y el contacto directo con la naturaleza.</p>
+                    <p>Nuestra misión es brindar a los visitantes experiencias memorables en un entorno natural de esparcimiento, descanso y recreación, ofreciendo servicios de calidad y fomentando el bienestar, la integración familiar y la conexión con la naturaleza.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+        <section id="GALLERY">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 header-text">
+                    <h2>Nuestra <span>GALERÍA</span></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 card">
+                    <a data-fancybox="gallery" href="img/shp1.jpg">
+                        <img src="img/shp1.jpg" alt="Galería Los Krotos 1">
+                    </a>
+
+                </div>
+                <div class="col-lg-3 card">
+                    <a data-fancybox="gallery" href="img/piscina1.jpg">
+                        <img src="img/piscina1.jpg" alt="Galería Los Krotos 2">
+                    </a>
+                </div>
+                <div class="col-lg-3 card">
+                    <a data-fancybox="gallery" href="img/eventos.jpg">
+                        <img src="img/eventos.jpg" alt="Galería Los Krotos 3">
+                    </a>
+                </div>
+                <div class="col-lg-3 card">
+                    <a data-fancybox="gallery" href="img/Gastronomia.jpg">
+                        <img src="img/Gastronomia.jpg" alt="Galería Los Krotos 4">
+                    </a>
+                </div>
+                <div class="col-lg-3 card">
+                    <a data-fancybox="gallery" href="img/yo.jpg">
+                        <img src="img/yo.jpg" alt="Galería Los Krotos 5">
+                    </a>
+                </div>
+                <div class="col-lg-3 card"> 
+                    <a data-fancybox="gallery" href="img/galeriaone.jpg">
+                        <img src="img/galeriaone.jpg" alt="Galería Los Krotos 6">
+                    </a>
+                </div>
+                <div class="col-lg-3 card">
+                    <a data-fancybox="gallery" href="img/futbol.jpg">
+                        <img src="img/futbol.jpg" alt="Galería Los Krotos 7">
+                    </a>
+                </div>
+                <div class="col-lg-3 card">
+                    <a data-fancybox="gallery" href="img/bebida.jpg">
+                        <img src="img/bebida.jpg" alt="Galería Los Krotos 8">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonial">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-4 left_content">
+                    <div class="row">
+                        <div class="col-12 header-text ht-2">
+                            <h2>ÚLTIMAS <span>RESEÑAS</span></h2>
+                        </div>
+                    </div>
+                    <h1>Con la Confianza de Cientos de Clientes</h1>
+                    <p>Nuestros visitantes valoran la experiencia integral: un espacio hermoso, servicio de calidad y opciones variadas para toda la familia.</p>
+                    <a href="eventos.html">Ver Más Reseñas <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                </div>
+                <div class="col-lg-8">
+                    <div id="testimonial-slider" class="owl-carousel">
+                        <div class="testimonial">
+                            <div class="pic">
+                                <img src="img/download2.jpg" alt="Reseña Cliente 1"/>
+                            </div>
+                            <h3 class="testimonial-title">
+                                Cliente Satisfecho<small></small>
+                            </h3>
+                            <p class="description">
+                                "¡Un lugar increíble para desconectarse! La piscina es genial y el ambiente natural es perfecto para relajarse. Mis hijos se divirtieron muchísimo. ¡Volveremos pronto!"
+                            </p>
+                        </div>
+
+                        <div class="testimonial">
+                            <div class="pic">
+                                <img src="img/download.jpg" alt="Reseña Cliente 2"/>
+                            </div>
+                            <h3 class="testimonial-title">
+                                Empresa Aliada<small></small>
+                            </h3>
+                            <p class="description">
+                                "Organizamos un evento corporativo y todo salió excelente. Los espacios son amplios y el equipo de Los Krotos nos brindó un servicio de primera. Muy recomendable para actividades de integración."
+                            </p>
+                        </div>
+
+                        <div class="testimonial">
+                            <div class="pic">
+                                <img src="img/images.jpg" alt="Reseña Cliente 3"/>
+                            </div>
+                            <h3 class="testimonial-title">
+                                Turista Entusiasmado<small></small>
+                            </h3>
+                            <p class="description">
+                                "Descubrimos este paraíso en San Martín. La comida regional es exquisita y el contacto con la selva es auténtico. Un escape perfecto de la rutina de la ciudad."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="blog" class="blogs">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 header-text">
+                    <h2>Nuestro <span>BLOG / NOTICIAS</span></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <div class="post">
+                        <div class="img-wrapper">
+                            <img src="img/verano.jpg" alt="Artículo Blog 1" srcset="">
+                            <div class="likes">
+                                <span class="heart">
+                                        <i class="fas fa-heart"></i> 125
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-wrapper">
+                            <h3 class="title">Verano en Los Krotos: ¡Actividades para toda la familia!</h3>
+                            <p>Descubre nuestras nuevas atracciones y eventos especiales para que disfrutes al máximo tus vacaciones en el campo.</p>
+                        </div>
+                        <div class="comments-readmore">
+                            <div class="comments">
+                                <span><i class="fas fa-comment-alt"></i></span>
+                                <span class="comment-count">12</span>
+                                <span class="text">comentarios</span>
+                            </div>
+                            <div class="readmore">
+                                <div class="dot dot1"></div>
+                                <div class="dot dot2"></div>
+                                <div class="dot dot3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                        <div class="post">
+                                <div class="img-wrapper">
+                                    <img src="img/comidas.jpg" alt="Artículo Blog 2" srcset="">
+                                    <div class="likes">
+                                        <span class="heart">
+                                                    <i class="fas fa-heart"></i> 89
+                                            </span>
+                                    </div>
+                                </div>
+                                <div class="content-wrapper">
+                                    <h3 class="title">La gastronomía amazónica te espera en nuestro restaurante</h3>
+                                    <p>Conoce los sabores auténticos de la región con nuestros platos preparados con ingredientes frescos y locales.</p>
+                                </div>
+                                <div class="comments-readmore">
+                                    <div class="comments">
+                                        <span><i class="fas fa-comment-alt"></i></span>
+                                        <span class="comment-count">5</span>
+                                        <span class="text">comentarios</span>
+                                    </div>
+                                    <div class="readmore">
+                                        <div class="dot dot1"></div>
+                                        <div class="dot dot2"></div>
+                                        <div class="dot dot3"></div>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                        <div class="post">
+                                <div class="img-wrapper">
+                                    <img src="img/eventosfamiliares.png" alt="Artículo Blog 3" srcset="">
+                                    <div class="likes">
+                                        <span class="heart">
+                                                    <i class="fas fa-heart"></i> 201
+                                            </span>
+                                    </div>
+                                </div>
+                                <div class="content-wrapper">
+                                    <h3 class="title">Los Krotos: El escenario perfecto para tus eventos especiales</h3>
+                                    <p>Bodas, cumpleaños, reuniones empresariales... Te contamos por qué nuestro recreo es el lugar ideal para celebrar.</p>
+                                </div>
+                                <div class="comments-readmore">
+                                    <div class="comments">
+                                        <span><i class="fas fa-comment-alt"></i></span>
+                                        <span class="comment-count">18</span>
+                                        <span class="text">comentarios</span>
+                                    </div>
+                                    <div class="readmore">
+                                        <div class="dot dot1"></div>
+                                        <div class="dot dot2"></div>
+                                        <div class="dot dot3"></div>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<section id="footer-site">
+        <div class="footer-top">
+            <div class="footer-top-body">
+                <div class="container">
+                    <div class="row">
+                    <div class="col-lg-6 mt-1 text-center">
+                    <h5>REDES SOCIALES</h5>
+                    <h6>SÍGUENOS EN NUESTRAS REDES</h6>
+                    <div class="footer-s-icons text-center">
+                        <ul>
+                            <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                             <li><a href="#" target="_blank"><i class="fa fa-tiktok"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                    <div class="col-lg-6 mt-1 text-center">
+                        <h5>BOLETÍN DE NOTICIAS</h5>
+                    <h6>NOS ENCANTA COMPARTIR NUEVAS OFERTAS Y PROMOCIONES EXCLUSIVAS</h6>
+                    <div class="footer-newsletter">
+                        <form>
+                            <input type="text" placeholder="INGRESA TU CORREO ELECTRÓNICO" required="">
+                            <button type="submit"><i class="fa fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="wrapper">
+            <div class="footer-LOGO">
+                    <h2>Los Krotos</h2>
+            </div>
+            <div class="footer-copyright">
+                <p>COPYRIGHT © Recreo Turístico Los Krotos</p>
+            </div>
+            <div class="footer-contact">
+                <ul>
+                    <li><i class="fa fa-map-marker"></i> Km 5.5 Carretera Lamas-Tarapoto, San Martín, Perú</li>
+                    <li><i class="fa fa-phone"></i>967125706</li>
+                    <li><a href="mailto:info@loskrotos.com"><i class="fa fa-paper-plane"></i> info@loskrotos.com</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="#">MAPA DEL SITIO</a></li>
+                    <li><a href="#">POLÍTICA DE PRIVACIDAD</a></li>
+                    <li><a href="#">TÉRMINOS DE USO</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </section>
+
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="js/jquery-1.12.4.min.js"></script>
+ <script src="js/jquery-ui.js"></script>
+
+
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script src="js/scrollIt.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/parallax.min.js"></script>
+<script src="js/pags/homeCtrl.js"></script>
+<script src="js/costom.js"></script>
+<script src="https://kit.fontawesome.com/f0ce275083.js"></script>
+<script>
+    
+
+</script>
+
+</body>
+</html>
